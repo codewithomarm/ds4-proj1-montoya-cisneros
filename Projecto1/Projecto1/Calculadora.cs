@@ -57,7 +57,7 @@ namespace Projecto1
             var token = "";
             foreach (var c in expression.Replace(" ", ""))
             {
-                if (char.IsDigit(c) || c == '.')
+                if (char.IsLetterOrDigit(c) || c == '.')
                 {
                     token += c;
                 }

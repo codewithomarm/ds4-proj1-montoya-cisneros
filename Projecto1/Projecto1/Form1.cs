@@ -125,7 +125,7 @@ namespace Projecto1
         }
         private void btnPotencia_Click(object sender, EventArgs e)
         {
-            lblPeticion.Text += "^";
+            lblPeticion.Text += "^2";
             lblResultado.Text = "";
         }
 
@@ -144,7 +144,7 @@ namespace Projecto1
         private void btnIgual_Click(object sender, EventArgs e)
         {
             lblResultado.Text = calc.Evaluate(lblPeticion.Text).ToString();
-            lblCalculo.Text = lblPeticion.Text;
+            lblCalculo.Text = lblPeticion.Text + " =";
             lblPeticion.Text = "";
             calc.setAns(lblResultado.Text);
         }
