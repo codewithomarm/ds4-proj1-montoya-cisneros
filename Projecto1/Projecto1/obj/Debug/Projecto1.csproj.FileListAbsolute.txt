@@ -1,0 +1,10 @@
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.csproj.AssemblyReference.cache
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.Form1.resources
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.Properties.Resources.resources
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.csproj.GenerateResource.cache
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.csproj.CoreCompileInputs.cache
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\bin\Debug\Projecto1.exe.config
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\bin\Debug\Projecto1.exe
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\bin\Debug\Projecto1.pdb
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.exe
+C:\Users\Axel Cisnero\OneDrive - tempocargo.com\Documents\Universidad\Desarrollo de Software 4\ds4-proj1-montoya-cisneros\Projecto1\Projecto1\obj\Debug\Projecto1.pdb
