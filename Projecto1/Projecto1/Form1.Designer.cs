@@ -350,6 +350,7 @@
             // 
             this.listboxCalculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.listboxCalculos.FormattingEnabled = true;
+            this.listboxCalculos.HorizontalScrollbar = true;
             this.listboxCalculos.ItemHeight = 20;
             this.listboxCalculos.Location = new System.Drawing.Point(432, 30);
             this.listboxCalculos.Name = "listboxCalculos";
