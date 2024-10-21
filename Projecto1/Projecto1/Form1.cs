@@ -141,19 +141,31 @@ namespace Projecto1
             lblResultado.Text = "";
         }
 
-        private void btnIgual_Click(object sender, EventArgs e)
-        {
-            lblResultado.Text = calc.Evaluate(lblPeticion.Text).ToString();
-            lblCalculo.Text = lblPeticion.Text + " =";
-            lblPeticion.Text = "";
-            calc.setAns(lblResultado.Text);
-        }
-
         private void btnAns_Click(object sender, EventArgs e)
         {
             lblPeticion.Text += "Ans";
             lblResultado.Text = "";
         }
+
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                lblResultado.Text = calc.Evaluate(lblPeticion.Text).ToString();
+                lblCalculo.Text = lblPeticion.Text + " =";
+                lblPeticion.Text = "";
+                calc.setAns(lblResultado.Text);
+
+            } catch(Exception exe)
+            {
+                lblResultado.Text = "Syntax Error";
+                lblCalculo.Text = lblPeticion.Text + " =";
+                lblPeticion.Text = "";
+                calc.setAns("0");
+                Console.Write(exe.Message);
+            }
+            
+        }
     }
-    }
+}
 
