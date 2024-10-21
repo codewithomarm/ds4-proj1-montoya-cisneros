@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,12 +16,21 @@ namespace Projecto1
         // Instancia de la calculadora
         Calculadora calc = new Calculadora();
 
+        // Conexión a la base de datos
+        string connectionString = @"Server=.\sqlexpress2;
+            Database=calculadoradb;
+            Trusted_Connection=True;";
+
+        Boolean mostrarResultado = false;
+
         public Form1()
         {
             InitializeComponent();
             lblPeticion.Text = "";
             lblCalculo.Text = "";
             lblResultado.Text = "";
+            listboxCalculos.Items.Clear();
+            listboxCalculos.Visible = false;
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -153,6 +163,7 @@ namespace Projecto1
             {
                 lblResultado.Text = calc.Evaluate(lblPeticion.Text).ToString();
                 lblCalculo.Text = lblPeticion.Text + " =";
+                guardarResultado(lblPeticion.Text, lblResultado.Text);
                 lblPeticion.Text = "";
                 calc.setAns(lblResultado.Text);
 
@@ -160,11 +171,86 @@ namespace Projecto1
             {
                 lblResultado.Text = "Syntax Error";
                 lblCalculo.Text = lblPeticion.Text + " =";
+                guardarResultado(lblPeticion.Text, lblResultado.Text);
                 lblPeticion.Text = "";
                 calc.setAns("0");
                 Console.Write(exe.Message);
             }
             
+        }
+
+        private void guardarResultado(string peticion, string resultado)
+        {
+            string sql = "INSERT INTO calculos (expresion, resultado)"
+                + "VALUES ('" + peticion + "', '" + resultado + "')";
+
+            SqlConnection con = new SqlConnection(connectionString);
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            con.Open();
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+
+            } catch(Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.ToString());
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        private void btnMostrarCalculos_Click(object sender, EventArgs e)
+        {
+            if (!mostrarResultado)
+            {
+                SqlConnection con = new SqlConnection(connectionString);
+
+                try
+                {
+                    con.Open();
+
+                    string sql = "SELECT * FROM calculos";
+
+                    SqlCommand cmd = new SqlCommand(sql, con);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    listboxCalculos.Items.Clear();
+
+                    while (reader.Read())
+                    {
+                        string newItem = "Id: " + reader["id"].ToString() 
+                            + ". Expresión: " + reader["expresion"].ToString()
+                            + ". Resultado: " + reader["resultado"].ToString()
+                            + ". Fecha: " + reader["fecha"].ToString() + ".";
+                        listboxCalculos.Items.Add(newItem);
+                    }
+
+                    reader.Close();
+
+                    listboxCalculos.Visible = true;
+                    mostrarResultado = true;
+                }
+                catch (Exception exe)
+                {
+                    MessageBox.Show($"Error: {exe.Message}");
+                }
+                finally
+                {
+                    con.Close();
+                }
+
+            } else
+            {
+                listboxCalculos.Items.Clear();
+                listboxCalculos.Visible = false;
+                mostrarResultado = false;
+            }
+
         }
     }
 }

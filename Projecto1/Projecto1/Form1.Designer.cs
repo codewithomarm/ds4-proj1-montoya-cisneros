@@ -365,6 +365,7 @@
             this.btnMostrarCalculos.TabIndex = 28;
             this.btnMostrarCalculos.Text = "Mostrar Calculos";
             this.btnMostrarCalculos.UseVisualStyleBackColor = true;
+            this.btnMostrarCalculos.Click += new System.EventHandler(this.btnMostrarCalculos_Click);
             // 
             // btnAbrirParent
             // 
