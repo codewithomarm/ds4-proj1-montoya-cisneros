@@ -52,13 +52,14 @@
             this.btnLog = new System.Windows.Forms.Button();
             this.btnLn = new System.Windows.Forms.Button();
             this.btnRaiz = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblCalculo = new System.Windows.Forms.Label();
             this.listboxCalculos = new System.Windows.Forms.ListBox();
             this.btnMostrarCalculos = new System.Windows.Forms.Button();
             this.btnAbrirParent = new System.Windows.Forms.Button();
             this.btnCerrarParent = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
@@ -327,14 +328,6 @@
             this.btnRaiz.UseVisualStyleBackColor = true;
             this.btnRaiz.Click += new System.EventHandler(this.btnRaiz_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.textBox1.Location = new System.Drawing.Point(17, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(399, 83);
-            this.textBox1.TabIndex = 25;
-            // 
             // lblCalculo
             // 
             this.lblCalculo.AutoSize = true;
@@ -401,6 +394,16 @@
             this.lblResultado.TabIndex = 31;
             this.lblResultado.Text = "label1";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(399, 83);
+            this.pictureBox1.TabIndex = 32;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,7 +416,6 @@
             this.Controls.Add(this.listboxCalculos);
             this.Controls.Add(this.lblCalculo);
             this.Controls.Add(this.lblPeticion);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnRaiz);
             this.Controls.Add(this.btnLn);
             this.Controls.Add(this.btnLog);
@@ -437,8 +439,10 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Calculadora Cientifica | Axel Cisnerno | Omar Montoya";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -470,13 +474,13 @@
         private System.Windows.Forms.Button btnLog;
         private System.Windows.Forms.Button btnLn;
         private System.Windows.Forms.Button btnRaiz;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblCalculo;
         private System.Windows.Forms.ListBox listboxCalculos;
         private System.Windows.Forms.Button btnMostrarCalculos;
         private System.Windows.Forms.Button btnAbrirParent;
         private System.Windows.Forms.Button btnCerrarParent;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
