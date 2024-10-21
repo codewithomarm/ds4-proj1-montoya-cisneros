@@ -31,6 +31,8 @@ namespace Projecto1
             lblResultado.Text = "";
             listboxCalculos.Items.Clear();
             listboxCalculos.Visible = false;
+            this.Width = 442;
+            this.Height = 449;
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -234,6 +236,9 @@ namespace Projecto1
 
                     listboxCalculos.Visible = true;
                     mostrarResultado = true;
+
+                    this.Width = 812;
+                    this.Height = 449;
                 }
                 catch (Exception exe)
                 {
@@ -246,6 +251,8 @@ namespace Projecto1
 
             } else
             {
+                this.Width = 442;
+                this.Height = 449;
                 listboxCalculos.Items.Clear();
                 listboxCalculos.Visible = false;
                 mostrarResultado = false;
