@@ -1,23 +1,38 @@
 -- -----------------------------------------------------
--- Schema calculadoradb
+-- Verificar si la base de datos existe y eliminarla
 -- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `calculadoradb` ;
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'calculadoradb')
+BEGIN
+    DROP DATABASE calculadoradb;
+END;
+GO
 
 -- -----------------------------------------------------
--- Schema calculadoradb
+-- Crear la base de datos si no existe
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `calculadoradb` ;
-USE `calculadoradb` ;
+CREATE DATABASE calculadoradb;
+GO
+
+USE calculadoradb;
+GO
 
 -- -----------------------------------------------------
--- Table `calculadoradb`.`calculos`
+-- Verificar si la tabla existe y eliminarla
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `calculadoradb`.`calculos` ;
+IF OBJECT_ID('calculadoradb.dbo.calculos', 'U') IS NOT NULL
+BEGIN
+    DROP TABLE calculadoradb.dbo.calculos;
+END;
+GO
 
-CREATE TABLE IF NOT EXISTS `calculadoradb`.`calculos` (
-  `id` INT NOT NULL,
-  `expresion` VARCHAR(250) NOT NULL,
-  `resultado` VARCHAR(250) NOT NULL,
-  `fecha` TIMESTAMP NOT NULL,
-  PRIMARY KEY (`id`))
-;
+-- -----------------------------------------------------
+-- Crear la tabla
+-- -----------------------------------------------------
+CREATE TABLE calculadoradb.dbo.calculos (
+    id INT NOT NULL IDENTITY(1,1), -- IDENTITY para auto-incrementar
+    expresion VARCHAR(250) NOT NULL,
+    resultado VARCHAR(250) NOT NULL,
+    fecha DATETIME NOT NULL DEFAULT GETDATE(), -- GETDATE() para la fecha y hora actual
+    PRIMARY KEY (id)
+);
+GO
