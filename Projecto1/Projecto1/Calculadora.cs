@@ -173,5 +173,68 @@ namespace Projecto1
             return stack.Pop();
         }
 
+        public string DeterminarTipoCalculo(string expresion)
+        {
+            var operadores = new HashSet<string> { "+", "-", "*", "/", "^" };
+            var funciones = new HashSet<string> { "sqrt", "log", "ln" };
+
+            var tiposEncontrados = new HashSet<string>();
+
+            foreach (var op in operadores)
+            {
+                if (expresion.Contains(op))
+                {
+                    switch (op)
+                    {
+                        case "+":
+                            tiposEncontrados.Add("suma");
+                            break;
+                        case "-":
+                            tiposEncontrados.Add("resta");
+                            break;
+                        case "*":
+                            tiposEncontrados.Add("multiplicacion");
+                            break;
+                        case "/":
+                            tiposEncontrados.Add("division");
+                            break;
+                        case "^":
+                            tiposEncontrados.Add("potencia");
+                            break;
+                    }
+                }
+            }
+
+            foreach (var func in funciones)
+            {
+                if (expresion.Contains(func))
+                {
+                    switch (func)
+                    {
+                        case "sqrt":
+                            tiposEncontrados.Add("raiz");
+                            break;
+                        case "log":
+                        case "ln":
+                            tiposEncontrados.Add("logaritmo");
+                            break;
+                    }
+                }
+            }
+
+            if (tiposEncontrados.Count == 0)
+            {
+                return "desconocido";
+            }
+            else if (tiposEncontrados.Count == 1)
+            {
+                return tiposEncontrados.First();
+            }
+            else
+            {
+                return "mixto";
+            }
+        }
+
     }
 }

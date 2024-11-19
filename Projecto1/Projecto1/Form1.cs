@@ -165,7 +165,8 @@ namespace Projecto1
             {
                 lblResultado.Text = calc.Evaluate(lblPeticion.Text).ToString();
                 lblCalculo.Text = lblPeticion.Text + " =";
-                guardarResultado(lblPeticion.Text, lblResultado.Text);
+                string tipo = calc.DeterminarTipoCalculo(lblPeticion.Text);
+                guardarResultado(lblPeticion.Text, lblResultado.Text, tipo);
                 lblPeticion.Text = "";
                 calc.setAns(lblResultado.Text);
 
@@ -173,7 +174,7 @@ namespace Projecto1
             {
                 lblResultado.Text = "Syntax Error";
                 lblCalculo.Text = lblPeticion.Text + " =";
-                guardarResultado(lblPeticion.Text, lblResultado.Text);
+                guardarResultado(lblPeticion.Text, lblResultado.Text, "error");
                 lblPeticion.Text = "";
                 calc.setAns("0");
                 Console.Write(exe.Message);
@@ -181,10 +182,10 @@ namespace Projecto1
             
         }
 
-        private void guardarResultado(string peticion, string resultado)
+        private void guardarResultado(string peticion, string resultado, string tipo)
         {
-            string sql = "INSERT INTO calculos (expresion, resultado)"
-                + "VALUES ('" + peticion + "', '" + resultado + "')";
+            string sql = "INSERT INTO calculos (expresion, resultado, tipo)"
+                + "VALUES ('" + peticion + "', '" + resultado + "', '"+ tipo +"')";
 
             SqlConnection con = new SqlConnection(connectionString);
             SqlCommand cmd = new SqlCommand(sql, con);
@@ -228,6 +229,7 @@ namespace Projecto1
                         string newItem = "Id: " + reader["id"].ToString() 
                             + ". Expresión: " + reader["expresion"].ToString()
                             + ". Resultado: " + reader["resultado"].ToString()
+                            + ". Tipo: " + reader["tipo"].ToString()
                             + ". Fecha: " + reader["fecha"].ToString() + ".";
                         listboxCalculos.Items.Add(newItem);
                     }
