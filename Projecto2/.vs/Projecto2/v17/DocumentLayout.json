@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|c:\\users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\projecto2\\apicalculadora\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|c:\\users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\projecto2\\apicalculadora\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|c:\\users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\projecto2\\apicalculadora\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\apicalculadora\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|c:\\users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\projecto2\\apicalculadora\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\apicalculadora\\repository\\calculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\repository\\calculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\apicalculadora\\repository\\icalculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\repository\\icalculorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\apicalculadora\\models\\calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\models\\calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\apicalculadora\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04788C84-062C-4216-BD2C-997022169774}|APICalculadora\\APICalculadora.csproj|solutionrelative:apicalculadora\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelpController.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeToolTip": "APICalculadora\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:13:44.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "APICalculadora\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "APICalculadora\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T18:11:07.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "APICalculadora\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "APICalculadora\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T18:10:50.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "APICalculadora\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:02:55.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICalculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Repository\\ICalculoRepository.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Repository\\ICalculoRepository.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Repository\\ICalculoRepository.cs",
+              "RelativeToolTip": "APICalculadora\\Repository\\ICalculoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:13:53.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Calculo.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Models\\Calculo.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Models\\Calculo.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Models\\Calculo.cs",
+              "RelativeToolTip": "APICalculadora\\Models\\Calculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:40:20.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalculoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Repository\\CalculoRepository.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Repository\\CalculoRepository.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Repository\\CalculoRepository.cs",
+              "RelativeToolTip": "APICalculadora\\Repository\\CalculoRepository.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:09:12.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "APICalculadora\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:23:35.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculosController.cs",
+              "DocumentMoniker": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Controllers\\CalculosController.cs",
+              "RelativeDocumentMoniker": "APICalculadora\\Controllers\\CalculosController.cs",
+              "ToolTip": "C:\\Users\\codew\\source\\repos\\ds4-proj1-montoya-cisneros\\Projecto2\\APICalculadora\\Controllers\\CalculosController.cs",
+              "RelativeToolTip": "APICalculadora\\Controllers\\CalculosController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:11:33.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
