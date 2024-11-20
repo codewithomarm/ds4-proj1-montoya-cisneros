@@ -35,12 +35,17 @@ namespace APICalculadora.Controllers
         [Route("{tipo}")]
         public IHttpActionResult GetCalculosByTipo(string tipo)
         {
+            if (!Enum.TryParse(tipo, true, out TipoCalculo tipoCalculo))
+            {
+                return BadRequest("Tipo de cálculo no válido");
+            }
+
             try
             {
                 var calculos = _calculoRepository.GetCalculosByTipo(tipo);
                 if (calculos.Count == 0)
                 {
-                    return NotFound();
+                    return Ok(new List<Calculo>());
                 }
                 return Ok(calculos);
             }
