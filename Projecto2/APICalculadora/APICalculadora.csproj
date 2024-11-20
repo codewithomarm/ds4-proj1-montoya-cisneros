@@ -163,6 +163,7 @@
     <Compile Include="Models\Calculo.cs" />
     <Compile Include="Models\CalculoRequest.cs" />
     <Compile Include="Models\TipoCalculo.cs" />
+    <Compile Include="Models\TipoCalculoValidationAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CalculoRepository.cs" />
     <Compile Include="Repository\ICalculoRepository.cs" />

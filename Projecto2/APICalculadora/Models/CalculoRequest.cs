@@ -15,6 +15,7 @@ namespace APICalculadora.Models
         public string Resultado { get; set; }
 
         [Required(ErrorMessage = "El tipo es requerido")]
+        [TipoCalculoValidation(ErrorMessage = "El tipo de cálculo no es válido")]
         public string Tipo { get; set; }
     }
 }
